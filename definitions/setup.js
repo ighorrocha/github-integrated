@@ -7,4 +7,4 @@
 
  publish("new_table")
    .type("table")
-   .query(ctx => `select * from ${ctx.ref("source_table")}`);
+   .query(ctx => `select * from ${ctx.ref("source_table_2")}`);
